@@ -1,0 +1,53 @@
+body{
+    color: #334646;
+    background-image: url(../image/bakcgroundjapo.png);
+    background-size: cover;
+}
+.div-ingreso{
+    width: 65vh;
+    text-align: center;
+    
+}
+.form-ingreso{
+    display: contents;
+    text-align: center;
+}
+.clase2, .clase2{
+    font-size: 132px;
+}
+.panelclass, .panelclass2{
+    background-image: url(../image/paneljapo.png);
+    background-size: cover;
+    height: auto;
+    display: grid;
+    font-weight: 600;
+    margin: 10vh 5vh;
+}
+.panelclass{
+    padding: 0vh 3vh;
+}
+.panelclass2{
+    padding: 12px 25px;
+
+}
+.botonregistro, .botonregistrarme{
+    /*Estilo al boton registro*/
+    color: #192121;
+    font-weight: 900;
+}
+.botoniciar{
+    margin: 2vh 0;
+}
+.col-md-6 h2{
+    /*Estilo en el titulo de la pagina de registro*/
+    text-align: center;
+    margin: 5vh;
+    font-weight: 800;
+    background: #EEE1BF;
+    padding: 5px 10px;
+}
+
+.botonregistrarme{
+    display: block;
+    text-align: end;
+}
