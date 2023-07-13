@@ -5,8 +5,11 @@ como se compara
 a > b 
 a < b
 a >= b
+a == b compara los valores
 a != b
-!a 
+!a negacion logica
+a ==== b compara si los dos son estrictamente iguales tipos y valor
+a !== b  compara si son distintos tipos y valor
 
 
 

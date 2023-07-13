@@ -51,3 +51,8 @@ body{
     display: block;
     text-align: end;
 }
+.alerta1{
+    background-color: black;
+    color: white;
+    font-size: 32px;
+}
