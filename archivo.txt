@@ -1,4 +1,47 @@
-Better comments
-Debugger for java
-intellicode
-Quokka.js
+prueba Primero
+
+como se compara 
+
+a > b 
+a < b
+a >= b
+a != b
+!a 
+
+
+
+
+
+        function calcular(){
+         var valor1 = document.getElementById("valor1").value;
+         var valor2 = document.getElementById("valor2").value;
+         var resultado = "";
+         if (valor1 > valor2) {
+            resultado = ("valor 1 es mayor");
+         }else if (valor1 < valor2) {
+            resultado = ("Valor 1 es menor");
+         }else{
+            resultado = ("ambos valores son iguales");
+         }
+         document.getElementById("resultado")
+        }
+
+
+//while
+
+function test(){
+var contador = 0;
+while(contador > 10){
+    console.log (contador);
+    contador ++;
+    }
+//for
+for(var i=0; i > 10; i++){
+    console.log(i);
+}
+
+}
+
+
+while
+

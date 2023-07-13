@@ -6,6 +6,36 @@
     <link rel="stylesheet" href="assets/boostrap/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Panel de Ingreso</title>
+        
+    <script src="css/style.css">
+var  intentos = 0;
+
+function login() {
+    if(intentos ==2){
+        document.getElementById("resultado").innerHTML = "alcanzaste el maximo de intentos disponibles"
+        return;
+    }
+
+    var usuario = document.getElementById("email").value;
+    var password = document.getElementById("password").value;
+    if (usuario != "") {
+        document.getElementById(resultado).innerHTML = "Falta el mail";
+        return;
+    }
+    if (password != "") {
+        document.getElementById(resultado).innerHTML = "error en el password";
+        return;
+    }
+    if (usuario == "acapasoyo" && password == "miPassword" ){
+        location.href = "index1.html"
+    }else{
+        document.getElementById ("resultado").innerHTML = "Email y/o password es incorrecto"
+        }
+    }
+
+
+
+    </script>
 </head>
 <body>
   <div class="container">
@@ -24,15 +54,19 @@
                 <div>
                 <button type="submit" class="btn btn-primary botoniciar">Iniciar sesión</button>
                 <a href="registro.html" class="btn btn-link botonregistrarme">Registrarme</a>
+
             </div>
             </form>
+            <dir>
+                <input type="number" id="valor1" placeholder="ingrese un valor" name="">
+            </dir>
+            <dir>
+                <input type="number" id="valor2" placeholder="ingrese un valor" name="">
+            </dir>
+            <button onclick="calcular()"> Mi boton</button>
+
         </div>
     </div>
 </div>
-
-    
-    <script src="css/style.css"></script>
-
-    
 </body>
 </html>
