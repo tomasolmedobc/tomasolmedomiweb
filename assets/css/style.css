@@ -1,10 +1,32 @@
 body{
     color: #334646;
     background-image: url(../image/bakcgroundjapo.png);
+    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: repeat-y;
+    background-position: center center;
+    width: 100%;
+
 }
+
+/*Responsive page */
+@media (max-width: 600px) {
+    /* Reglas de estilo para dispositivos con ancho máximo de 600px */
+    .body{
+        width: 100%;
+        background-size: cover;
+        background-repeat: repeat-y;
+        background-position: center center;
+    }
+}
+
+.container, .c1{
+    width: 100%;
+
+}
+
 .div-ingreso{
-    width: 65vh;
+    width: 50%;
     text-align: center;
     
 }
@@ -19,9 +41,9 @@ body{
     background-image: url(../image/paneljapo.png);
     background-size: cover;
     height: auto;
-    display: grid;
+    display:table-row;
     font-weight: 600;
-    margin: 10vh 5vh;
+    margin: 10% 5%;
 }
 .panelclass{
     padding: 0vh 3vh;
@@ -56,3 +78,4 @@ body{
     color: white;
     font-size: 32px;
 }
+

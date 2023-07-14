@@ -9,11 +9,12 @@ if(intentos ==2){
         if (username == "" || password == "") {
             document.getElementById("resultado").innerHTML = "Falta agregar el usuario/contraseña";
             alert('Falta agregar el usuario/contraseña');
-            return;
+            return false;
         }else if (username == "usuario" || password == "123") {
-            alert('Bienvenido usuario');
-            return;
+            location.href = "index1.html";
+            return false;
         } else {
             alert('Usuario no registrado, vaya al panel de registro');
+            document.getElementById("resultado").innerHTML = "Usuario no registrado, vaya al panel de registro"
         }
     }
