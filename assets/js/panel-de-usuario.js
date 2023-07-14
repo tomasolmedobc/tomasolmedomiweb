@@ -14,6 +14,6 @@ if(intentos ==2){
             alert('Bienvenido usuario');
             return;
         } else {
-            alert('Usuario no registrado');
+            alert('Usuario no registrado, vaya al panel de registro');
         }
     }
