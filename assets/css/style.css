@@ -6,7 +6,6 @@ body{
     background-repeat: repeat-y;
     background-position: center center;
     width: 100%;
-
 }
 
 /*Responsive page */
@@ -22,7 +21,6 @@ body{
 
 .container, .c1{
     width: 100%;
-
 }
 
 .div-ingreso{

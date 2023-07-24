@@ -11,7 +11,7 @@ if(intentos ==2){
             alert('Falta agregar el usuario/contraseña');
             return false;
         }else if (username == "usuario" || password == "123") {
-            location.href = "index1.html";
+            location.href = 'https://index.html';
             return false;
         } else {
             alert('Usuario no registrado, vaya al panel de registro');

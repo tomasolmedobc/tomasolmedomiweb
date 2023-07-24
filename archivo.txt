@@ -48,3 +48,48 @@ for(var i=0; i > 10; i++){
 
 while
 
+Extensiones
+Python
+Pylance
+Live Server
+Prettier - code Formatter
+intellicode
+language Support
+Debugger for JavaScript
+C#
+Maven for Java
+Auto rename Tag
+JavaScript ES6
+One Dark Pro (Theme mix)
+Django
+Indent Rainbow
+Better Comments
+Spanish language
+Rainbow Csv
+Import Cost
+Quokka.js
+Quokka button
+Palenight Theme
+indenticator
+Subtle matchBrackets
+Rainbow Brackets
+
+
+{
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.vertical":"auto",
+    "workbench.colorTheme": "One Dark Pro Mix",
+    "security.workspace.trust.untrustedFiles": "open",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "files.autoSave": "afterDelay",
+    "window.zoomLevel": 1,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.guides.indentation": false,
+    "indenticator.width": 1,
+    "indenticator.color.dark": "rgba(255,255,255,0.1)",
+    "editor.matchBrackets": "never",
+    "editor.glyphMargin": false,
+
+
+}
