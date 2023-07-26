@@ -1,4 +1,10 @@
 prueba Primero
+arrays
+.lenght muestra la cantidad de elementos en un array.
+.push agrega un elemento al arrays al ultimo lugar.
+.pop saca un elemento del array, pero solamente al ultimo.
+
+
 
 como se compara 
 
