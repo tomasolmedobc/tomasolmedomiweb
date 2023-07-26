@@ -96,6 +96,4 @@ Rainbow Brackets
     "indenticator.color.dark": "rgba(255,255,255,0.1)",
     "editor.matchBrackets": "never",
     "editor.glyphMargin": false,
-
-
 }

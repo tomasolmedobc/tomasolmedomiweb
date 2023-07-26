@@ -50,7 +50,7 @@ function limpiarLista(){
 function imprimirLista() {
     var lista = document.getElementById("lista");
     lista.innerHTML = "";
-    for(var i=0; i < tareas.lenght; i++) {
-        lista.innerHTML = lista.innerHTML + "<li>" + tareas[i] + "</li>";
+    for(var i=0; i < tareas.length; i++) {
+    lista.innerHTML = lista.innerHTML + "<li>" + tareas[i] + "</li>";
     }
 }
