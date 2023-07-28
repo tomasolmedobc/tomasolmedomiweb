@@ -36,8 +36,6 @@ let usuario = {
 };
 
 
-
-
     //Clase
 
 //metodo constructor
@@ -47,7 +45,7 @@ function Persona(nombre, apellido) {
     this.apellido = apellido;
     //metodos
     this.saludar = function(){
-        return this.nombre + " " + this.apellido 
+        return this.nombre + "hola " + this.apellido 
     }
 }
 //Instanciar (Crear un objeto) -> new
@@ -61,3 +59,34 @@ personas.push(persona1);
 personas.push(persona2);
 
 */
+
+function Persona() {
+    //atributos
+    this.nombre = "";
+    this.apellido = "";
+    this.edad = "";
+    this.email = "";
+    this.password = "";
+    //metodos
+    this.saludar = function(){
+        return this.nombre + "hola " + this.apellido 
+    }
+    //getters y setters
+    this.getNombre = function(){
+        return this.nombre;
+    }
+    this.setNombre = function(n){
+        this.nombre = n;
+    }
+}
+//Instanciar (Crear un objeto) -> new
+
+
+var persona1 = new Persona("Tomas", "Olmedo");
+var persona2 = new Persona("Agustin", "Olmedo");
+
+var personas = [];
+persona1.setNombre = ("Tomas");
+
+personas.push(persona1);
+personas.push(persona2);
