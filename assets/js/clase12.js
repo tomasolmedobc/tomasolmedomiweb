@@ -3,6 +3,6 @@
 //.nombre por classes
 function test(){
     var nombre = document.getElementById("nombre").value;
-    var nombre = $("#nombre").val()
+    var nombre = $("#nombre").val();
 
 }
