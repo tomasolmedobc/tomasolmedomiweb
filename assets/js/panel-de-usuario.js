@@ -1,11 +1,11 @@
-var  intentos = 0;
+let  intentos = 0;
 function login(){
 if(intentos ==2){
         document.getElementById("resultado").innerHTML = "alcanzaste el maximo de intentos disponibles"
         return;
     } 
-    var username = document.getElementById("username").value;
-    var password = document.getElementById("password").value;
+    let username = document.getElementById("username").value;
+    let password = document.getElementById("password").value;
         if (username == "" || password == "") {
             document.getElementById("resultado").innerHTML = "Falta agregar el usuario/contraseña";
             alert('Falta agregar el usuario/contraseña');

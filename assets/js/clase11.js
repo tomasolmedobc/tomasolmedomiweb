@@ -82,10 +82,10 @@ function Persona() {
 //Instanciar (Crear un objeto) -> new
 
 
-var persona1 = new Persona("Tomas", "Olmedo");
-var persona2 = new Persona("Agustin", "Olmedo");
+let persona1 = new Persona("Tomas", "Olmedo");
+let persona2 = new Persona("Agustin", "Olmedo");
 
-var personas = [];
+let personas = [];
 persona1.setNombre = ("Tomas");
 
 personas.push(persona1);

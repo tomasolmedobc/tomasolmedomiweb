@@ -28,11 +28,11 @@ function agregarLista() {
 
 */
 // Modelo de datos
-var tareas = [];
+let tareas = [];
 
 function agregarLista() {
-    var input = document.getElementById("input");
-    var tarea = input.value;
+    let input = document.getElementById("input");
+    let tarea = input.value;
     tareas.push(tarea);
     imprimirLista();
     input.value = "";
@@ -48,9 +48,9 @@ function limpiarLista(){
 }
 
 function imprimirLista() {
-    var lista = document.getElementById("lista");
+    let lista = document.getElementById("lista");
     lista.innerHTML = "";
-    for(var i=0; i < tareas.length; i++) {
+    for(let i=0; i < tareas.length; i++) {
     lista.innerHTML = lista.innerHTML + "<li>" + tareas[i] + "</li>";
     }
 }
