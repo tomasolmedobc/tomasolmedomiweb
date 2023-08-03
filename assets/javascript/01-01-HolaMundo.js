@@ -1,3 +1,5 @@
+/*
+
 //cadena de texto aka String
 let nombre = "Tom";
 let apellido = "Olmedo";
@@ -47,10 +49,65 @@ let noEsUnNumero = "hola" * 3.7;
 console.log(noEsUnNumero);
 
 
-/*************************** */
+/*************************** 
 ///Funcion declarada
 function estoEsUnaFuncion(){
     console.log("uno");
 }
 ///invocación de la función
 estoEsUnaFuncion();
+/*
+saludar = (nombre) => {
+    console.log(`Hola mi nombre es ${nombre}`);
+}
+saludar();
+console.log(saludar);
+
+
+
+function saludar(nombre,edad) {
+    console.log(`Hola mi nombre es ${nombre} y tengo ${edad}`);
+    
+}
+saludar("tomas",32);
+//Funcion declarada vs expresaa
+funcionDeclarada();
+
+function funcionDeclarada() {
+    console.log("Esta es una funcion declarada, puede invocarse en cualquier parte del codigo")
+}
+
+funcionDeclarada();
+funcionExpresada();
+//funcion anonima
+const funcionExpresada = function (){
+    console.log("Esto  es una funcion, expresada es decir que se le asigado un valor a una variable, si invocamos esta funcion antes de su defininicion js nos dira..");
+}
+
+funcionExpresada();
+*/
+//arrays
+const miArray = [];
+const miArray2 = [1,"hola", "A", "B", "C"];
+console.log(miArray);
+console.log(miArray2.length);
+
+const arrc = Array.of("x",99,"hola",123);
+console.log(arrc);
+
+
+//metodos array
+const colores = ["Rojo", "Verde", "Azul"];
+console.log(colores);
+
+//agrega un elemento al array en el ultimo puesto
+colores.push("Negro");
+console.log(colores);
+
+//metodo pop saca el ultimo array
+colores.pop()
+console.log(colores);
+
+colores.forEach(function(el)){
+    console.log()
+}

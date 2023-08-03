@@ -63,7 +63,7 @@ class Registro {
     this.apellido = apellido;
     this.email = email;
     this.password = password;
-}
+    }
 }
 const registro = new Registro();
 
