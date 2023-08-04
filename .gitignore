@@ -1,4 +1,6 @@
 #este archivo es de anotaciones
+*
+!.gitignore
 archivo.txt
-
+node_modules
 /assets/javascript
