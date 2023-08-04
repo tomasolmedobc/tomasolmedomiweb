@@ -1,6 +1,5 @@
-#este archivo es de anotaciones
-*
-!.gitignore
 archivo.txt
 node_modules
-/assets/javascript
+assets/javascript
+assets/javascript/apuntes.js
+assets/javascript/leccion.js
