@@ -1,8 +1,14 @@
 const express = require('express')
 const app = express()
 const port = 3000
+function logger() {
+    console.log('Request received')
+    next()
+}
+app.use(express.json());
 
 app.get('/login', (req, res) => {
+    /*
     let email = req.query.email;
     let password = req.query.password;
     res.sendFile(path.join(__dirname, '/login.html'))
@@ -13,8 +19,8 @@ app.get('/login', (req, res) => {
     } else{
         res.send({"estado" : "invalido"});
     }
+    */
 })
-
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
 })
