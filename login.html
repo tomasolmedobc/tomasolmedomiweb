@@ -20,7 +20,7 @@ Animated Login & Registration Form,Form Design,HTML and CSS,HTML CSS JavaScript,
     <section class="wrapper">
       <div class="form signup">
         <header>Signup</header>
-        <form action="#">
+        <form action="login" method="POST">
           <input type="text" placeholder="Full name" id="username" required />
           <input type="text" placeholder="Email address" id="email" required />
           <input type="password" placeholder="Password" id="password" required />
@@ -34,9 +34,9 @@ Animated Login & Registration Form,Form Design,HTML and CSS,HTML CSS JavaScript,
 
       <div class="form login">
         <header>Login</header>
-        <form action="#">
-          <input type="text" placeholder="Email address" id="email" required />
-          <input type="password" placeholder="Password" id="password" required />
+        <form action="login" method="POST">
+          <input type="text" placeholder="Email address" id="email" name="email" required />
+          <input type="password" placeholder="Password" id="password" name="password" required />
           <a href="#">Forgot password?</a>
           <input type="submit"  id="resultado" value="Login" />
         </form>
