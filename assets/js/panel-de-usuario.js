@@ -4,14 +4,14 @@ if(intentos ==2){
         document.getElementById("resultado").innerHTML = "alcanzaste el maximo de intentos disponibles"
         return;
     } 
-    let username = document.getElementById("username").value;
+    let email = document.getElementById("email").value;
     let password = document.getElementById("password").value;
-        if (username == "" || password == "") {
+        if (email == "" || password == "") {
             document.getElementById("resultado").innerHTML = "Falta agregar el usuario/contraseña";
             alert('Falta agregar el usuario/contraseña');
             return false;
-        }else if (username == "usuario" || password == "123") {
-            location.href = 'https://index.html';
+        }else if (email == "1@1" || password == "123") {
+            alert('bienvenido');
             return false;
         } else {
             alert('Usuario no registrado, vaya al panel de registro');

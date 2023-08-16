@@ -191,3 +191,10 @@ console.log(tomas.hasOwnProperty("nombre"));
 // for(const caracter of cadena){
 //     console.log(caracter);
 // }
+
+
+try {
+    console("En el try se agrega el codigo a evaluar como por ejemplo una validacion")
+} catch (error) {
+    console.log("Catch, captura cualquier error surgido o lanzado en el try")
+}

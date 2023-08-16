@@ -8,23 +8,22 @@
       name="keywords"
       content=" 
 Animated Login & Registration Form,Form Design,HTML and CSS,HTML CSS JavaScript,login & registration form,login & signup form,Login Form Design,registration form,Signup Form,HTML,CSS,JavaScript,
-"
-    />
+"|/>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Login & Signup Form HTML CSS | CodingNepal</title>
-    <link rel="stylesheet" href="assets/css/login-style.css" />
-  <script src="assets/js/panel-de-usuario.js"></script>
+    <link rel="stylesheet" href="css/login-style.css" />
+  <script src="js/panel-de-usuario.js"></script>
   </head>
   <body>
     <section class="wrapper">
       <div class="form signup">
         <header>Signup</header>
         <form action="#">
-          <input type="text" placeholder="Full name" required />
-          <input type="text" placeholder="Email address" required />
-          <input type="password" placeholder="Password" required />
+          <input type="text" placeholder="Full name" id="username" required />
+          <input type="text" placeholder="Email address" id="email" required />
+          <input type="password" placeholder="Password" id="password" required />
           <div class="checkbox">
             <input type="checkbox" id="signupCheck" />
             <label for="signupCheck">I accept all terms & conditions</label>
@@ -36,10 +35,10 @@ Animated Login & Registration Form,Form Design,HTML and CSS,HTML CSS JavaScript,
       <div class="form login">
         <header>Login</header>
         <form action="#">
-          <input type="text" placeholder="Email address" required />
-          <input type="password" placeholder="Password" required />
+          <input type="text" placeholder="Email address" id="email" required />
+          <input type="password" placeholder="Password" id="password" required />
           <a href="#">Forgot password?</a>
-          <input type="submit" value="Login" />
+          <input type="submit"  id="resultado" value="Login" />
         </form>
       </div>
 
