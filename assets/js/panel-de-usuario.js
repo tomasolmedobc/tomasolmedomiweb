@@ -18,8 +18,3 @@ if(intentos ==2){
             document.getElementById("resultado").innerHTML = "Usuario no registrado, vaya al panel de registro"
         }
     }
-app.post('/login', (req, res) => {
-    let name = req.query.nombre
-    let email = req.query.email
-    let password = req.query.password
-})
