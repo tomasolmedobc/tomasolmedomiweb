@@ -18,3 +18,4 @@ if(intentos ==2){
             document.getElementById("resultado").innerHTML = "Usuario no registrado, vaya al panel de registro"
         }
     }
+
