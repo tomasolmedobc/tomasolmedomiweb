@@ -18,13 +18,19 @@ app.get('/', (req, res) => {
     res.sendFile(path.resolve(__dirname, 'login.html'))
 
 })
+app.post('/procesar', (req, res) => {
+    const nombre = req.body.nombre;
+    const email = req.body.email;
+    // Aquí puedes procesar los datos como desees
+    res.send(`¡Hola ${nombre}! Has enviado tu email (${email}) correctamente.`);
+});
 
 app.post('/login'),(req,res) => {
     let email = req.body.email;
     let password = req.body.password;
     console.log(email);
     console.log(password);
-    if (email === 1@a && password === 1 ) {
+    if (email === 1@a.com && password === 1 ) {
         res.sendFile(path.join())
     }
 }

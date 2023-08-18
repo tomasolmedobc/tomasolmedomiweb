@@ -1,10 +1,5 @@
 {
-    "usuario": [
-        {
-    "nombre": "",
-    "apellido": "",
-    "email": "",
-    "password": ""
-        }
-    ]
+    "username" : "",
+    "email" : "",
+    "password" : ""
 }
